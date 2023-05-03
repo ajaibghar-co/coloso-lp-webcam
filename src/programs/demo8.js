@@ -95,7 +95,7 @@ export function main(coord, context, cursor, buffer) {
 
 
 	return {
-		char: density[index],
+		char: density[camindex],
 		color: colors_wha[camindex],
 		// char: density[r*10 % colors_wha.length],
 		// color: colors_wha[r*20 % colors_wha.length],
